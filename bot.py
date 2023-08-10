@@ -20,7 +20,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 #Read env variables
-TOKEN = os.environ['1281938674:AAE2Jb3KhG8TX5CEeA4kG9CNW-yqmQ8YVzM']
+TOKEN = os.environ['AAE2Jb3KhG8TX5CEeA4kG9CNW-yqmQ8YVzM']
 baseURL = os.environ['amazon.de'] 
 affiliate_tag = os.environ['20ma23-21']
 HEROKU_URL = os.environ['https://api.render.com/deploy/srv-cja8i7i683bs73abuv80?key=6xTb752N6Io']
