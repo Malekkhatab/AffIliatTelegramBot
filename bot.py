@@ -20,13 +20,13 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 #Read env variables
-TOKEN = os.environ['TOKEN']
+TOKEN = os.environ['AAE0WnzGqAcnA055VZ9tupy1WaoYSMpRX2w']
 baseURL = os.environ['baseURL'] 
 affiliate_tag = os.environ['affiliate_tag']
 HEROKU_URL = os.environ['HEROKU_URL']
 ALITOKEN = os.environ['ALITOKEN']
 SECRET = os.environ['SECRET']
-TRACKING_ID = os.environ['TRACKING_ID']
+TRACKING_ID = os.environ['test_ID']
 aliexpress = AliexpressApi(ALITOKEN, SECRET, models.Language.EN, models.Currency.EUR, TRACKING_ID)
 
 # baseURL should have https and www before amazon, but we also want to detect URL without it
