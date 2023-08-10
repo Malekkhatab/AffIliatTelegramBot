@@ -21,9 +21,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 #Read env variables
 TOKEN = os.environ['AAE0WnzGqAcnA055VZ9tupy1WaoYSMpRX2w']
-baseURL = os.environ['baseURL'] 
-affiliate_tag = os.environ['affiliate_tag']
-HEROKU_URL = os.environ['HEROKU_URL']
+baseURL = os.environ['amazon.de'] 
+affiliate_tag = os.environ['20ma23-21']
+HEROKU_URL = os.environ['https://api.render.com/deploy/srv-cja8i7i683bs73abuv80?key=6xTb752N6Io']
 ALITOKEN = os.environ['ALITOKEN']
 SECRET = os.environ['SECRET']
 TRACKING_ID = os.environ['test_ID']
